@@ -8,6 +8,8 @@ This repository contains the code and resources for the DS785 Capstone Project, 
 3. `MainFile.ipynb` is the primary running code that orchestrates the problem data, the simulations running and reading in parallel, and visualizations and statistical comparisons.
 4. `MathOpt.ipynb` is the mathematical optimization file used to run Mixed Integer Linear Programming (MILP) using a Windows Subsystem for Linux (WSL2) setup (not required) and an academic license with Gurobi (currently as is coded, would need to be swapped out for alternative solvers such as HiGHS, CBC, etc.)
 
+The key files operate within a folder directory system to allow `multiprocessing` more fully. The screenshots below show my local directory after the files are completely run.
+
 ### Data Results in dataframes
 ![image](https://github.com/user-attachments/assets/4f1ee766-eb9a-4396-bef2-44f8131906c2)
 
