@@ -7,3 +7,16 @@ This repository contains the code and resources for the DS785 Capstone Project, 
 2. `DiscreteEventSimulation.py` is how discrete event simulations (DES) are carried out in parallel, given arguments passed to the script.
 3. `MainFile.ipynb` is the primary running code that orchestrates the problem data, the simulations running and reading in parallel, and visualizations and statistical comparisons.
 4. `MathOpt.ipynb` is the mathematical optimization file used to run Mixed Integer Linear Programming (MILP) using a Windows Subsystem for Linux (WSL2) setup (not required) and an academic license with Gurobi (currently as is coded, would need to be swapped out for alternative solvers such as HiGHS, CBC, etc.)
+
+
+### Screenshot of directory created (\ProblemSets)
+![image](https://github.com/user-attachments/assets/1c5ab0d5-ccfd-4298-9863-7dac33481ebc)
+
+### \ProblemSets\Training_Queue75
+![image](https://github.com/user-attachments/assets/4bee1a0a-3231-41ef-823c-f04c9140bd07)
+
+### \ProblemSets\Training_Queue75\Solutions
+![image](https://github.com/user-attachments/assets/90ca7257-ec25-452d-9e10-341925a42ab0)
+
+### \ProblemSets\Training_Queue75\Solutions\Traditional_true_SPT
+![image](https://github.com/user-attachments/assets/dbd48aea-adb2-49d3-b5ae-3e9b293fb6da)
