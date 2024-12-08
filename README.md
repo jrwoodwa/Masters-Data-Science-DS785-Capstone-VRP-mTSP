@@ -1,6 +1,6 @@
 # Masters-Data-Science-DS785-Capstone-VRP-mTSP
 
-This repository contains the code and resources for the DS785 Capstone Project, focusing on solving a manufacturing-styled Vehicle Routing Problem (VRP) or Multi-Traveling Salesman Problem (mTSP) using synthetic data, discrete event simulations, and mathematical optimization. Below is a guide to the key files and their purposes.
+This repository contains the code and resources for a DS785 Capstone Project, focusing on solving a manufacturing-styled Vehicle Routing Problem (VRP) or Multi-Traveling Salesman Problem (mTSP) using synthetic data, discrete event simulations, and mathematical optimization. Below is a guide to the key files and their purposes.
 
 ## Key Files
 1. `SyntheticData+ProblemPrep_FINAL.ipynb` is the way problems are synthetically generated within the active directory by creating a `ProblemSets` folder and directory for the use of the rest of the code.
