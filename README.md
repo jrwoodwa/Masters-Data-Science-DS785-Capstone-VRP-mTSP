@@ -19,6 +19,7 @@ These results demonstrate to companies that meeting complex problems with decisi
 Keywords: Smart manufacturing, operations scheduling, optimization, real-time, artificial intelligence (AI), machine learning (ML), stochastic modeling, sequential policy, robust optimization, discrete event simulation, prescriptive analytics, decision science, operations research, high-performance computing
 
 ## Key Files
+0. `Smart Manufacturing Scheduling with Data Science_Woodward_5.57_FINAL.pdf` is the master's business case study paper. The five chapters cover Introduction (I), Literature Review (II), Methodology (III), Results (IV), and Discussion (V), with Chapter III diving into technicals.
 1. `SyntheticData+ProblemPrep_FINAL.ipynb` is the way problems are synthetically generated within the active directory by creating a `ProblemSets` folder and directory for the use of the rest of the code.
 2. `DiscreteEventSimulation.py` is how discrete event simulations (DES) are carried out in parallel, given arguments passed to the script.
 3. `MainFile.ipynb` is the primary running code that orchestrates the problem data, the simulations running and reading in parallel, and visualizations and statistical comparisons.
