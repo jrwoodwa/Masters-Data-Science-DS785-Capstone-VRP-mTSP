@@ -1,6 +1,8 @@
 # Masters-Data-Science-DS785-Capstone-VRP-mTSP
 
-This repository contains the code and resources for a DS785 Capstone Project at the University of Wisconsin's master's data science program. The project uses synthetic data, discrete event simulations, and mathematical optimization to solve a manufacturing-styled Vehicle Routing Problem (VRP) or Multi-Traveling Salesman Problem (mTSP). 
+This repository contains the code and resources for a DS785 Capstone Project at the University of Wisconsin's master's data science program. “Smart Manufacturing Scheduling: Blending AI, Optimization, and Stochastic Modeling”.
+
+The project uses synthetic data, discrete event simulations, and mathematical optimization to solve a manufacturing-styled Vehicle Routing Problem (VRP) or Multi-Traveling Salesman Problem (mTSP). 
 
 ## Abstract
 
