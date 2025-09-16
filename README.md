@@ -6,19 +6,19 @@ The project used synthetic data, discrete event simulations, and mathematical op
 
 ## Abstract
 
-At industrial bottlenecks, scheduling decisions often rely on guesswork or simplistic algorithms—overlooking resources and profits. 
-
-This business case study blended AI, optimization, and uncertainty (i.e., stochastic modeling) to address two parallel-processing machines sharing a single queue, incorporating real-world factors such as sequence-dependent setups (i.e., asymmetry), machine-specific incapabilities, and unpredictable upstream queuing. 
-
-Traditional dispatching scheduling treats each machine as independent, ignoring the advantages of cooperation. 
-
-In contrast, this project’s cooperative approach optimized maximum flow time and average machine work time, thoroughly evaluated with synthetic yet lifelike problem sets. 
-
-By integrating discrete event simulation, machine learning (ML), scalable optimization, and evaluating scheduling decisions iteratively (i.e., sequential policy), the approach achieved 20% improvements—reaching up to 60% in some scenarios—over traditional methods (and realized 10% gains even at larger 75-job queues), all within a real-time 10-second solve using a personal desktop. 
-
-These results demonstrate to companies that meeting complex problems with decision science delivers significant practical improvements, showcasing its transformative power to monetize data and drive long-term competitive advantages.
-
-Keywords: Smart manufacturing, operations scheduling, optimization, real-time, artificial intelligence (AI), machine learning (ML), stochastic modeling, sequential policy, robust optimization, discrete event simulation, prescriptive analytics, decision science, operations research, high-performance computing
+> At industrial bottlenecks, scheduling decisions often rely on guesswork or simplistic algorithms—overlooking resources and profits. 
+> 
+> This business case study blended AI, optimization, and uncertainty (i.e., stochastic modeling) to address two parallel-processing machines sharing a single queue, incorporating real-world factors such as sequence-dependent setups (i.e., asymmetry), machine-specific incapabilities, and unpredictable upstream queuing. 
+> 
+> Traditional dispatching scheduling treats each machine as independent, ignoring the advantages of cooperation. 
+> 
+> In contrast, this project’s cooperative approach optimized maximum flow time and average machine work time, thoroughly evaluated with synthetic yet lifelike problem sets. 
+> 
+> By integrating discrete event simulation, machine learning (ML), scalable optimization, and evaluating scheduling decisions iteratively (i.e., sequential policy), the approach achieved 20% improvements—reaching up to 60% in some scenarios—over traditional methods (and realized 10% gains even at larger 75-job queues), all within a real-time 10-second solve using a personal desktop. 
+> 
+> These results demonstrate to companies that meeting complex problems with decision science delivers significant practical improvements, showcasing its transformative power to monetize data and drive long-term competitive advantages.
+> 
+> Keywords: Smart manufacturing, operations scheduling, optimization, real-time, artificial intelligence (AI), machine learning (ML), stochastic modeling, sequential policy, robust optimization, discrete event simulation, prescriptive analytics, decision science, operations research, high-performance computing
 
 ## Key Files
 0. `Smart Manufacturing Scheduling with Data Science_Woodward_5.57_FINAL.pdf` is the master's business case study paper. The five chapters covered Introduction (I), Literature Review (II), Methodology (III), Results (IV), and Discussion (V), with Chapter III diving into the technical parts.
