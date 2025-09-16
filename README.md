@@ -1,8 +1,8 @@
 # Masters-Data-Science-DS785-Capstone-VRP-mTSP
 
-This repository contains the code and resources for a DS785 Capstone Project at the University of Wisconsin's master's data science program. “Smart Manufacturing Scheduling: Blending AI, Optimization, and Stochastic Modeling”.
+This repository contains the code and resources for a DS785 Capstone Project at the University of Wisconsin's master's data science program: “Smart Manufacturing Scheduling: Blending AI, Optimization, and Stochastic Modeling”.
 
-The project uses synthetic data, discrete event simulations, and mathematical optimization to solve a manufacturing-styled Vehicle Routing Problem (VRP) or Multi-Traveling Salesman Problem (mTSP). 
+The project used synthetic data, discrete event simulations, and mathematical optimization to address a manufacturing problem known as Parallel Job Shop Scheduling (PJSS), closely related to the Vehicle Routing Problem (VRP) or the Multi-Traveling Salesman Problem (mTSP). 
 
 ## Abstract
 
@@ -21,14 +21,14 @@ These results demonstrate to companies that meeting complex problems with decisi
 Keywords: Smart manufacturing, operations scheduling, optimization, real-time, artificial intelligence (AI), machine learning (ML), stochastic modeling, sequential policy, robust optimization, discrete event simulation, prescriptive analytics, decision science, operations research, high-performance computing
 
 ## Key Files
-0. `Smart Manufacturing Scheduling with Data Science_Woodward_5.57_FINAL.pdf` is the master's business case study paper. The five chapters cover Introduction (I), Literature Review (II), Methodology (III), Results (IV), and Discussion (V), with Chapter III diving into technicals.
-1. `SyntheticData+ProblemPrep_FINAL.ipynb` is the way problems are synthetically generated within the active directory by creating a `ProblemSets` folder and directory for the use of the rest of the code.
-2. `DiscreteEventSimulation.py` is how discrete event simulations (DES) are carried out in parallel, given arguments passed to the script.
-3. `MainFile.ipynb` is the primary running code that orchestrates the problem data, the simulations running and reading in parallel, and visualizations and statistical comparisons.
-4. `MathOpt.ipynb` is the mathematical optimization file used to run Mixed Integer Linear Programming (MILP) using a Windows Subsystem for Linux (WSL2) setup (not required) and an academic license with Gurobi (currently as is coded, would need to be swapped out for alternative solvers such as HiGHS, CBC, etc.)
+0. `Smart Manufacturing Scheduling with Data Science_Woodward_5.57_FINAL.pdf` is the master's business case study paper. The five chapters covered Introduction (I), Literature Review (II), Methodology (III), Results (IV), and Discussion (V), with Chapter III diving into the technical parts.
+1. `SyntheticData+ProblemPrep_FINAL.ipynb` is the way problems were synthetically generated within the active directory by creating a `ProblemSets` folder and directory for the use of the rest of the code.
+2. `DiscreteEventSimulation.py` is how discrete event simulations (DES) were carried out in parallel, given arguments passed to the script.
+3. `MainFile.ipynb` is the primary running code that orchestrated the problem data, ran the simulations in parallel, and did visualizations and statistical comparisons.
+4. `MathOpt.ipynb` is the mathematical optimization file used to run Mixed Integer Linear Programming (MILP) using a Windows Subsystem for Linux (WSL2) setup (not required) and an academic license with Gurobi (currently coded as-is, would need to be refactored for alternative solvers such as HiGHS, CBC, etc.)
 
 ## Directory snapshots
-The key files operate within a folder directory system to allow `multiprocessing` or parallelizing computer threads more fully. The screenshots below show my local directory after the files are completely run.
+The key files assume a folder directory system to enable `multiprocessing` or parallelizing computer threads more effectively. The screenshots below show my local directory after the files have completely run.
 
 ### Data Results in dataframes
 ![image](https://github.com/user-attachments/assets/4f1ee766-eb9a-4396-bef2-44f8131906c2)
